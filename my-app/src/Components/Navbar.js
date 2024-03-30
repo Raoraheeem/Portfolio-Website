@@ -91,7 +91,7 @@ const Navbar = () => {
                              
                             </div>
                             <button className='text-[black] text-[20px] bg-[#E3FF04] absolute md:right-[10%] lg:right-[2%] sm:top-[30%] w-[150px] h-[60px] font-[Unbounded] text-bold md:block'>
-                            
+                            Buy Now
                                 </button>
                         </div>
                     </div>
