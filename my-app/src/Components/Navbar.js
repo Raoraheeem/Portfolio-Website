@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
-import { a  ,useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
-import Features from './Features';
+
+
 
 
 const Navbar = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [buttonColor, setButtonColor] = useState('#E3FF04'); // Initial color of the button
-    const location = useLocation();
+
     const toggleMobileMenu = () => {
         setMobileMenuOpen(!isMobileMenuOpen);
         // Change button color when toggling the mobile menu
